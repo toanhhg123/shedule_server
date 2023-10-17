@@ -5,6 +5,7 @@ services:
     build:
       context: .       
       dockerfile: Dockerfile
+    image: toanhhg123/schedule-server:latest
     command:  ["java", "-jar", "schedule-0.0.1-SNAPSHOT.jar"]
     ports:
       - "8080:8080"
