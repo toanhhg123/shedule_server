@@ -17,7 +17,7 @@ import com.example.schedule.core.ResponseObject;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping(path = "/api/CompanionUnit")
+@RequestMapping(path = "/api/companionUnit")
 public class CompanionUnitController {
 
 	@Autowired
